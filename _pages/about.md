@@ -2,23 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: avatar.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Prof. Li Wen</p>
+    <p><i class="fas fa-phone-alt"></i> 188-1064-4650 (lab)</p>
+    <p><i class="fas fa-fax"></i> 010-82338271</p>
+    <p><i class="fas fa-envelope"></i> <a href="mailto:liwen@buaa.edu.cn">liwen@buaa.edu.cn</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Our research mainly focus on bio-inspired soft robotics that do work traditional rigid robots **cannot** handle. Based on the understanding of biomechanics, we synthesize robotics that can safely and effectively interact with human and complex surroundings.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+By working closely with biologists, material scientists and mechanists, we are particularly interested in building robotics prototypes by using multiple soft materials, therefore to explore open challenging scientific questions in biomechanics such as swimming, adhesion and grasping. We also work closely with industrial people to bring our technologies into devices and products that meet the real-world applications.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Our research interests
+
+1. soft robotics
+2. bio-inspired fabrication
+3. comparative biomechanics
+
+{% include figure.html path="assets/img/research_interests.png" class="img-fluid rounded z-depth-1" zoomable=true %}
