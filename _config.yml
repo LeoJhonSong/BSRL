@@ -36,7 +36,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -105,7 +105,7 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: /blog/:year/:title/  # merge news into blog tab
   projects:
     output: true
     permalink: /projects/:path/
@@ -163,7 +163,7 @@ defaults:
   - scope:
       path:            "assets/**/*.*"
     values:
-      sitemap:         false
+      sitemap:         true
 # Extras
 github: [metadata]
 
