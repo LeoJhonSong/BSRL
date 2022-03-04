@@ -165,9 +165,13 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path:            "assets/**/*.*"
+      path: "assets/**/*.*"
     values:
-      sitemap:         true
+      sitemap: false
+  - scope:
+      path: "assets/bibliography"
+    values:
+      bibliography: true
 # Extras
 github: [metadata]
 
@@ -212,11 +216,11 @@ scholar:
   last_name: Einstein
   first_name: [Albert, A.]
 
-  style: apa
+  style: modern-language-association
   locale: en
 
-  source: /_bibliography/
-  bibliography: papers.bib
+  source: /assets/bibliography/
+  bibliography: "**/*.bib{,tex}"
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -231,6 +235,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: month
+  sort_order: descending
 
 
 # -----------------------------------------------------------------------------
