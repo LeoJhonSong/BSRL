@@ -84,7 +84,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 # -----------------------------------------------------------------------------
-# Blog $ News
+# Blog & News
 # -----------------------------------------------------------------------------
 
 blog_name: BSRL @ BUAA  # your blog must have a name for it to show up in the nav bar
@@ -113,7 +113,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -141,6 +141,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - README.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -152,14 +153,14 @@ plugins:
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-github-metadata
+  # - jekyll-github-metadata
   - jekyll-imagemagick
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  - jekyll-twitter-plugin
-  - jemoji
+  # - jekyll-twitter-plugin
+  # - jemoji
 
 # Sitemap settings
 defaults:
